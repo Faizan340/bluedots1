@@ -1,0 +1,254 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--link rel="stylesheet" href="s.css"-->
+
+    <!--font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Bootstrap 4>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"-->
+    <style>
+        html{
+            background: #000000;
+            
+             
+        }
+        .container{
+            background: #000000;
+        }
+         
+        .our-team{
+            border-radius: 15px;
+            text-align: center;
+            padding: 20px 15px 30px;
+            background: #fff;
+        
+        }
+        .our-team .pic{
+            background: #fff;
+            padding: 10px;
+            margin-bottom: 25px;
+            display: inline-block;
+            width: 100%;
+            height: 50%;
+            transition: all 0.5s ease 0s;
+        }
+        .our-team:hover .pic{
+            background: #17bebb;
+            border-radius: 50%;
+        }
+        .our-team:hover .pic1{
+            background: #17bebb;
+            border-radius: 50%;
+        }
+        .our-team:hover .pic2{
+            background: #17bebb;
+            border-radius: 50%;
+        }
+        .pic img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        .pic1 img{
+            width: 85%;
+            height: 85%;
+            border-radius: 50%;
+        }
+        .pic2 img{
+            width: 80%;
+            height: 80%;
+            border-radius: 50%;
+        }
+        .our-team .title{
+            font-weight: 600;
+            color: #2e282a;
+            text-transform: uppercase;
+            display: block;
+            font-size: 20px;
+            margin: 0 0 7px 0;
+        }
+        .our-team .post{
+            color: #17bebb;
+            text-transform: capitalize;
+            display: block;
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+        .our-team .social{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .our-team .social li{
+            display: inline-block;
+            margin-right: 5px;
+        }
+        .our-team .social li a{
+            border-radius: 50%;
+            font-size: 15px;
+            color: #17bebb;
+            border: 1px solid #17bebb;
+            display: block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            transition: all 0.5s ease 0s;
+        }
+        .our-team:hover .social li a{
+            background: #17bebb;
+            color: #fff;
+        }
+        .our-team:hover .pic{
+            background: #17bebb;
+            border-radius: 50%;
+        }
+        .our-team:hover .social li a{
+            background: #17bebb;
+            color: #fff;
+        }
+    </style>
+</head>
+<body style="background: black;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler"; type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+    
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="training.html">Trainnigs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jobs.html">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about1.html">About</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand d-flex" href="#">BlueDotS</a>
+        </div>
+    </nav>
+
+    <center>
+        <h1 style="color:white; margin-top:20px"> Our Vision</h1>
+        <p style="margin:30px 20px 40px 20px; color: white; font-size: 20px;">Our vission is "We put people to work!"   
+            That is it, and its adoption has had a profound effect.  
+            Every action we take we pause and ask "how does this put people to work?"  or "how does this improve our ability to put people to work?"   Making decisions has actually never been easier.  As long as that simple statement is in the front of mind, we always know what is the correct answer to any problem.  And the results have been very measurable.  As an organization (since shifting our corporate culture to me more statement focused) we have doubled in size and production in less that a 2 years with no sign of slowing down.
+        Provide quality, cost-effective training designed to increase individual and organizational productivity and enrichment. Provide development opportunities that enhance knowledge, develop skills and enrich the organization.We believe
+            Learning is the source of human progress. It has the power to transform our world from illness to health, from poverty to prosperity, from conflict to peace </p>
+        <h2 style="color:white;">Meet The Team</h2>
+    </center>
+    <div class="container">
+        <div class="row" >
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic1">
+                        <img src="fr1.jpg">
+                    </div>
+                    <h3 class="title">Faizan Rashid</h3>
+                    
+
+                    <!--social icon-->
+                     <ul class="social">
+                       
+                        <li><a href="mailto:rfaizan540@gmail.com" class="fa fa-envelope"></a></li>
+                        
+                 </ul>
+
+                </div>
+            </div>
+
+    <!--2nd member-->
+     
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic2">
+                        <img src="as2.jpg">
+                    </div>
+                    <h3 class="title">Ankita Saha</h3>
+                    
+
+                     <!--social Icon-->
+                     <ul class="social">
+                        <li><a href="mailto:ankitasaha70443@gmail.com" class="fa fa-envelope"></a></li>
+                 </ul>
+
+                </div>
+            </div>
+
+    <!--3rd member-->
+    
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="aa.jpg">
+                    </div>
+                    <h3 class="title">Ajmal Ali</h3>
+                    
+                    
+                     <!--social icon-->
+                     <ul class="social">
+                        <li><a href="mailto:officialajmalali10@gmail.com" class="fa fa-envelope"></a></li>
+                        
+                 </ul>
+   
+                </div>
+            </div>
+
+    <!--4th member-->
+
+            <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="ai.jpg">
+                    </div>
+                    <h3 class="title">Arzaqul Islam</h3>
+                   
+
+                     <!--social icon-->
+                     <ul class="social">
+                        <li><a href="mailto:arzaqkhan22@gmail.com" class="fa fa-envelope"></a></li>
+                        
+                 </ul>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6" style="margin-top:10px;">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="ak.jpg">
+                    </div>
+                    <h3 class="title">Ayush Kumar</h3>
+
+                    <ul class="social">
+                        <li><a href="mailto:ayush201666@gmail.com" class="fa fa-envelope"></a></li>
+                        
+                 </ul>
+
+                </div>
+            </div>
+
+    
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
+
