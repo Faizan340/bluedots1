@@ -2,8 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Form
 
 from django.shortcuts import render, HttpResponse
-import requests
-from .models import Form
+
 
 # Create your views here.
 def index(request):

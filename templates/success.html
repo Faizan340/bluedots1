@@ -1,4 +1,4 @@
-<!doctype html>
+{% load static %}
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -36,13 +36,13 @@
           <a class="navbar-brand d-flex" href="#">BlueDotS</a>
       </div>
   </nav>
-  <div id ="particles-js" style="height:100vh; background:#3e8ea8;">
+  <div id ="particles-js" style="height:100vh; background:#0a234a;">
     <center>
 <h1 style="position:absolute; font-family:Lucida Console; margin-top:50px;color: white;">Form Submitted Successfully<br>Our team will get in contact with you very soon.</h1>
     </center>
 </div>
-<script type ="text/javascript" src="particles.js"></script>
-<script type ="text/javascript" src="app.js"></script>
+<script type ="text/javascript" src="{% static 'js/particles.js' %}"></script>
+<script type ="text/javascript" src="{% static 'js/app.js' %}"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

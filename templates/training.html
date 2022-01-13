@@ -1,4 +1,4 @@
-<!doctype html>
+{% load static %}
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -11,7 +11,7 @@
     <title>BlueDotS - Trainnigs</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
             <a class="navbar-brand d-flex" href="#">BlueDotS</a>
         </div>
     </nav>
-    <div style="background-image: url('backgrond4.jfif');">
+    <div style="background-image: url('{% static 'images/backgrond4.jfif' %}');">
     <div class = "container" >
     <div class="row">
         <div class ="col-sm-6">
